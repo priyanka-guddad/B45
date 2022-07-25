@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-25T02:44:53Z" name="Suite" finished-at="2022-07-25T02:45:22Z" duration-ms="28713">
+    <groups>
+    </groups>
+    <test started-at="2022-07-25T02:44:53Z" name="QA" finished-at="2022-07-25T02:45:22Z" duration-ms="28713">
+      <class name="script.TestClass2">
+        <test-method is-config="true" signature="openApp(java.lang.reflect.Method, java.lang.String)[pri:0, instance:script.TestClass2@346d61be]" started-at="2022-07-25T02:45:16Z" name="openApp" finished-at="2022-07-25T02:45:21Z" duration-ms="5177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void script.TestClass2.testLogin()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[config.properties]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testLogin()[pri:0, instance:script.TestClass2@346d61be]" started-at="2022-07-25T02:45:21Z" name="testLogin" finished-at="2022-07-25T02:45:21Z" duration-ms="3" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at script.TestClass2.testLogin(TestClass2.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.TestClass2@346d61be]" started-at="2022-07-25T02:45:21Z" name="closeApp" finished-at="2022-07-25T02:45:22Z" duration-ms="607" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=FAILURE method=TestClass2.testLogin()[pri:0, instance:script.TestClass2@346d61be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- script.TestClass2 -->
+      <class name="script.TestClass1">
+        <test-method is-config="true" signature="createReport()[pri:0, instance:script.TestClass1@3e6ef8ad]" started-at="2022-07-25T02:44:53Z" name="createReport" finished-at="2022-07-25T02:44:53Z" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReport -->
+        <test-method is-config="true" signature="openApp(java.lang.reflect.Method, java.lang.String)[pri:0, instance:script.TestClass1@3e6ef8ad]" started-at="2022-07-25T02:44:53Z" name="openApp" finished-at="2022-07-25T02:45:16Z" duration-ms="22643" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void script.TestClass1.testA()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[config.properties]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testA()[pri:0, instance:script.TestClass1@3e6ef8ad]" started-at="2022-07-25T02:45:16Z" name="testA" finished-at="2022-07-25T02:45:16Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.TestClass1@3e6ef8ad]" started-at="2022-07-25T02:45:16Z" name="closeApp" finished-at="2022-07-25T02:45:16Z" duration-ms="257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testA status=SUCCESS method=TestClass1.testA()[pri:0, instance:script.TestClass1@3e6ef8ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="publishReport()[pri:0, instance:script.TestClass1@3e6ef8ad]" started-at="2022-07-25T02:45:22Z" name="publishReport" finished-at="2022-07-25T02:45:22Z" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publishReport -->
+      </class> <!-- script.TestClass1 -->
+    </test> <!-- QA -->
+  </suite> <!-- Suite -->
+</testng-results>
