@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>QA</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Jul 24 19:44:53 PDT 2022</td>
+<td>Started on:</td><td>Mon Jul 25 23:46:48 PDT 2022</td>
 </tr>
-<tr><td>Total time:</td><td>28 seconds (28713 ms)</td>
+<tr><td>Total time:</td><td>18 seconds (18963 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,18 +75,22 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='script.TestClass2.testLogin()'><b>testLogin</b><br>Test class: script.TestClass2</td>
-<td><div><pre>java.lang.AssertionError: null
-	at script.TestClass2.testLogin(TestClass2.java:19)
+<td title='script.ValidLogin.testValidLogin()'><b>testValidLogin</b><br>Test class: script.ValidLogin</td>
+<td><div><pre>java.lang.Error: Unresolved compilation problem: 
+	Syntax error on token &quot;}&quot;, delete this token
+
+	at page.LoginPage.&lt;init&gt;(LoginPage.java:46)
+	at script.ValidLogin.testValidLogin(ValidLogin.java:21)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace80190412", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace80190412'><pre>java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.fail(Assert.java:103)
-	at script.TestClass2.testLogin(TestClass2.java:19)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1600719087", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1600719087'><pre>java.lang.Error: Unresolved compilation problem: 
+	Syntax error on token &quot;}&quot;, delete this token
+
+	at page.LoginPage.&lt;init&gt;(LoginPage.java:46)
+	at script.ValidLogin.testValidLogin(ValidLogin.java:21)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -109,20 +113,7 @@ function toggleAllBoxes() {
 	at java.base/java.lang.Thread.run(Thread.java:833)
 </pre></div></td>
 <td>0</td>
-<td>script.TestClass2@346d61be</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='script.TestClass1.testA()'><b>testA</b><br>Test class: script.TestClass1</td>
-<td></td>
-<td>0</td>
-<td>script.TestClass1@3e6ef8ad</td></tr>
+<td>script.ValidLogin@65f095f8</td></tr>
 </table><p>
 </body>
 </html>
