@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-26T06:46:48Z" name="Suite" finished-at="2022-07-26T06:47:07Z" duration-ms="18963">
+  <suite started-at="2022-07-27T02:03:41Z" name="Suite" finished-at="2022-07-27T02:04:01Z" duration-ms="19864">
     <groups>
     </groups>
-    <test started-at="2022-07-26T06:46:48Z" name="QA" finished-at="2022-07-26T06:47:07Z" duration-ms="18963">
-      <class name="script.ValidLogin">
-        <test-method is-config="true" signature="createReport()[pri:0, instance:script.ValidLogin@65f095f8]" started-at="2022-07-26T06:46:48Z" name="createReport" finished-at="2022-07-26T06:46:48Z" duration-ms="203" status="PASS">
+    <test started-at="2022-07-27T02:03:41Z" name="QA" finished-at="2022-07-27T02:04:01Z" duration-ms="19864">
+      <class name="script.InValidLogin">
+        <test-method is-config="true" signature="createReport()[pri:0, instance:script.InValidLogin@65f095f8]" started-at="2022-07-27T02:03:41Z" name="createReport" finished-at="2022-07-27T02:03:41Z" duration-ms="288" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createReport -->
-        <test-method is-config="true" signature="openApp(java.lang.reflect.Method, java.lang.String)[pri:0, instance:script.ValidLogin@65f095f8]" started-at="2022-07-26T06:46:48Z" name="openApp" finished-at="2022-07-26T06:47:06Z" duration-ms="17934" status="PASS">
+        <test-method is-config="true" signature="openApp(java.lang.reflect.Method, java.lang.String)[pri:0, instance:script.InValidLogin@65f095f8]" started-at="2022-07-27T02:03:41Z" name="openApp" finished-at="2022-07-27T02:04:00Z" duration-ms="19024" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void script.ValidLogin.testValidLogin()]]>
+                <![CDATA[public void script.InValidLogin.testValidLogin()]]>
               </value>
             </param>
             <param index="1">
@@ -27,19 +27,16 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="testValidLogin()[pri:1, instance:script.ValidLogin@65f095f8]" started-at="2022-07-26T06:47:06Z" name="testValidLogin" finished-at="2022-07-26T06:47:07Z" duration-ms="649" status="FAIL">
-          <exception class="java.lang.Error">
+        <test-method signature="testValidLogin()[pri:1, instance:script.InValidLogin@65f095f8]" started-at="2022-07-27T02:04:00Z" name="testValidLogin" finished-at="2022-07-27T02:04:00Z" duration-ms="210" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Unresolved compilation problem: 
-Syntax error on token "}", delete this token
-]]>
+              <![CDATA[null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Error: Unresolved compilation problem: 
-Syntax error on token "}", delete this token
-
-at page.LoginPage.<init>(LoginPage.java:46)
-at script.ValidLogin.testValidLogin(ValidLogin.java:21)
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at script.InValidLogin.testValidLogin(InValidLogin.java:34)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -62,26 +59,26 @@ at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecut
 at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.Error -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidLogin -->
-        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.ValidLogin@65f095f8]" started-at="2022-07-26T06:47:07Z" name="closeApp" finished-at="2022-07-26T06:47:07Z" duration-ms="369" status="PASS">
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.InValidLogin@65f095f8]" started-at="2022-07-27T02:04:00Z" name="closeApp" finished-at="2022-07-27T02:04:01Z" duration-ms="612" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testValidLogin status=FAILURE method=ValidLogin.testValidLogin()[pri:1, instance:script.ValidLogin@65f095f8] output={null}]]]>
+                <![CDATA[[TestResult name=testValidLogin status=FAILURE method=InValidLogin.testValidLogin()[pri:1, instance:script.InValidLogin@65f095f8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-        <test-method is-config="true" signature="publishReport()[pri:0, instance:script.ValidLogin@65f095f8]" started-at="2022-07-26T06:47:07Z" name="publishReport" finished-at="2022-07-26T06:47:07Z" duration-ms="237" status="PASS">
+        <test-method is-config="true" signature="publishReport()[pri:0, instance:script.InValidLogin@65f095f8]" started-at="2022-07-27T02:04:01Z" name="publishReport" finished-at="2022-07-27T02:04:01Z" duration-ms="324" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- publishReport -->
-      </class> <!-- script.ValidLogin -->
+      </class> <!-- script.InValidLogin -->
     </test> <!-- QA -->
   </suite> <!-- Suite -->
 </testng-results>

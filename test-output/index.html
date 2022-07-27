@@ -102,7 +102,7 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="script.ValidLogin" class="method navigator-link" hash-for-method="testValidLogin">testValidLogin</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="script.InValidLogin" class="method navigator-link" hash-for-method="testValidLogin">testValidLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -120,7 +120,7 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">script.ValidLogin</span>
+              <span class="class-name">script.InValidLogin</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -128,16 +128,13 @@
                   <a name="testValidLogin">
                   </a> <!-- testValidLogin -->
                   <span class="method-name">testValidLogin</span>
-                  <div class="stack-trace">java.lang.Error: Unresolved compilation problem: 
-	Syntax error on token &quot;}&quot;, delete this token
-
-	at page.LoginPage.&lt;init&gt;(LoginPage.java:46)
-	at script.ValidLogin.testValidLogin(ValidLogin.java:21)
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at script.InValidLogin.testValidLogin(InValidLogin.java:34)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 16 stack frames
+... Removed 18 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -159,7 +156,7 @@
       &lt;package name=&quot;script&quot;/&gt;
     &lt;/packages&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;script.ValidLogin&quot;/&gt;
+      &lt;class name=&quot;script.InValidLogin&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- QA --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -202,13 +199,13 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testValidLogin')
-data.setCell(0, 2, 'script.ValidLogin')
-data.setCell(0, 3, 649);
+data.setCell(0, 2, 'script.InValidLogin')
+data.setCell(0, 3, 210);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 649 ms</span>
+              <span class="suite-total-time">Total running time: 210 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -234,28 +231,28 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">script.ValidLogin</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">script.InValidLogin</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">createReport</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
-                <span class="method-name">openApp(public void script.ValidLogin.testValidLogin(), config.properties)</span>
-                <span class="method-start">213 ms</span>
+                <span class="method-name">openApp(public void script.InValidLogin.testValidLogin(), config.properties)</span>
+                <span class="method-start">305 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testValidLogin</span>
-                <span class="method-start">18147 ms</span>
+                <span class="method-start">19329 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">closeApp([TestResult name=testValidLogin status=FAILURE method=ValidLogin.testValidLogin()[pri:1, instance:sc...)</span>
-                <span class="method-start">18798 ms</span>
+                <span class="method-name">closeApp([TestResult name=testValidLogin status=FAILURE method=InValidLogin.testValidLogin()[pri:1, instance:...)</span>
+                <span class="method-start">19542 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">publishReport</span>
-                <span class="method-start">19185 ms</span>
+                <span class="method-start">20175 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
