@@ -2,16 +2,16 @@
 <testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-27T03:11:00Z" name="Suite" finished-at="2022-07-27T03:11:44Z" duration-ms="44034">
+  <suite started-at="2022-07-27T08:45:12Z" name="Suite" finished-at="2022-07-27T08:46:10Z" duration-ms="58353">
     <groups>
     </groups>
-    <test started-at="2022-07-27T03:11:00Z" name="QA" finished-at="2022-07-27T03:11:44Z" duration-ms="44034">
+    <test started-at="2022-07-27T08:45:12Z" name="QA" finished-at="2022-07-27T08:46:10Z" duration-ms="58353">
       <class name="script.InvalidLogin">
-        <test-method is-config="true" signature="createReport()[pri:0, instance:script.InvalidLogin@3e6ef8ad]" started-at="2022-07-27T03:11:00Z" name="createReport" finished-at="2022-07-27T03:11:00Z" duration-ms="294" status="PASS">
+        <test-method is-config="true" signature="createReport()[pri:0, instance:script.InvalidLogin@3e6ef8ad]" started-at="2022-07-27T08:45:12Z" name="createReport" finished-at="2022-07-27T08:45:12Z" duration-ms="386" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createReport -->
-        <test-method is-config="true" signature="openApp(java.lang.reflect.Method, java.lang.String)[pri:0, instance:script.InvalidLogin@3e6ef8ad]" started-at="2022-07-27T03:11:27Z" name="openApp" finished-at="2022-07-27T03:11:42Z" duration-ms="15098" status="PASS">
+        <test-method is-config="true" signature="openApp(java.lang.reflect.Method, java.lang.String)[pri:0, instance:script.InvalidLogin@3e6ef8ad]" started-at="2022-07-27T08:45:52Z" name="openApp" finished-at="2022-07-27T08:46:08Z" duration-ms="16154" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,11 +27,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="testInvalidLogin()[pri:2, instance:script.InvalidLogin@3e6ef8ad]" started-at="2022-07-27T03:11:42Z" name="testInvalidLogin" finished-at="2022-07-27T03:11:44Z" duration-ms="1997" status="PASS">
+        <test-method signature="testInvalidLogin()[pri:2, instance:script.InvalidLogin@3e6ef8ad]" started-at="2022-07-27T08:46:08Z" name="testInvalidLogin" finished-at="2022-07-27T08:46:10Z" duration-ms="2070" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.InvalidLogin@3e6ef8ad]" started-at="2022-07-27T03:11:44Z" name="closeApp" finished-at="2022-07-27T03:11:44Z" duration-ms="253" status="PASS">
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.InvalidLogin@3e6ef8ad]" started-at="2022-07-27T08:46:10Z" name="closeApp" finished-at="2022-07-27T08:46:10Z" duration-ms="311" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,13 +42,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-        <test-method is-config="true" signature="publishReport()[pri:0, instance:script.InvalidLogin@3e6ef8ad]" started-at="2022-07-27T03:11:44Z" name="publishReport" finished-at="2022-07-27T03:11:44Z" duration-ms="343" status="PASS">
+        <test-method is-config="true" signature="publishReport()[pri:0, instance:script.InvalidLogin@3e6ef8ad]" started-at="2022-07-27T08:46:10Z" name="publishReport" finished-at="2022-07-27T08:46:11Z" duration-ms="344" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- publishReport -->
       </class> <!-- script.InvalidLogin -->
       <class name="script.ValidLogin">
-        <test-method is-config="true" signature="openApp(java.lang.reflect.Method, java.lang.String)[pri:0, instance:script.ValidLogin@346d61be]" started-at="2022-07-27T03:11:00Z" name="openApp" finished-at="2022-07-27T03:11:22Z" duration-ms="21837" status="PASS">
+        <test-method is-config="true" signature="openApp(java.lang.reflect.Method, java.lang.String)[pri:0, instance:script.ValidLogin@346d61be]" started-at="2022-07-27T08:45:12Z" name="openApp" finished-at="2022-07-27T08:45:46Z" duration-ms="33706" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -64,11 +64,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="testValidLogin()[pri:1, instance:script.ValidLogin@346d61be]" started-at="2022-07-27T03:11:22Z" name="testValidLogin" finished-at="2022-07-27T03:11:26Z" duration-ms="4573" status="PASS">
+        <test-method signature="testValidLogin()[pri:1, instance:script.ValidLogin@346d61be]" started-at="2022-07-27T08:45:46Z" name="testValidLogin" finished-at="2022-07-27T08:45:52Z" duration-ms="5842" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidLogin -->
-        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.ValidLogin@346d61be]" started-at="2022-07-27T03:11:26Z" name="closeApp" finished-at="2022-07-27T03:11:27Z" duration-ms="258" status="PASS">
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.ValidLogin@346d61be]" started-at="2022-07-27T08:45:52Z" name="closeApp" finished-at="2022-07-27T08:45:52Z" duration-ms="252" status="PASS">
           <params>
             <param index="0">
               <value>
